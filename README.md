@@ -3,7 +3,7 @@ This project is a redesign of the original Space Jam (1996) website. The goal wa
 
 Purpose: 
 The original website is interactive but difficult to navigate and not user-friendly by modern standards. 
-This redesign focuses on making the content clearer, mor structured, and easier to use. 
+This redesign focuses on making the content clearer, more structured, and easier to use. 
 
 Improvments: 
 - Cleaner and more modern layout 
