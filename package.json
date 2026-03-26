@@ -1,0 +1,11 @@
+{
+  "name": "spacejam-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass src/scss/style.scss dist/style.css --no-source-map --style=expanded",
+    "watch": "sass src/scss/style.scss dist/style.css --watch"
+  },
+  "dependencies": {
+    "sass": "^1.0.0"
+  }
+}
