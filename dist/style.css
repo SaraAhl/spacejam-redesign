@@ -150,4 +150,25 @@ footer {
   color: white;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+    padding: 1rem;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav {
+    margin-top: 0.5rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
