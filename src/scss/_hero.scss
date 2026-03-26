@@ -1,0 +1,44 @@
+.hero {
+    height: 500px;
+    background: url("../images/spacejam.jpg") center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+
+/* gradient overlay */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 400px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+    color: #ccc;
+}
+
+.hero button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background: #00ffcc;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
+}
